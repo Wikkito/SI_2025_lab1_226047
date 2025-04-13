@@ -1,0 +1,24 @@
+git fetch origin
+git checkout -b 1-remove-a-task-by-name origin/1-remove-a-task-by-name
+nano SI2025Lab1Main.java
+git add SI2025Lab1Main.java
+git commit SI2025Lab1Main.java -m "Feature implemented"
+git push -u origin 1-remove-a-task-by-name
+git checkout master
+git checkout -b 4-mark-task-as-completed-by-name origin/4-mark-task-as-completed-by-name
+nano SI2025Lab1Main.java
+git add SI2025Lab1Main.java
+git commit -m "Feature implemented - Mark task as completed by name"
+git push -u origin 4-mark-task-as-completed-by-name
+git checkout master
+git checkout -b 5-filter-tasks-by-category origin/5-filter-tasks-by-category
+nano SI2025Lab1Main.java
+git add SI2025Lab1Main.java
+git commit -m "Feature implemented - Filter tasks by category"
+git push -u origin 5-filter-tasks-by-category
+git checkout master
+git merge 5-filter-tasks-by-category 
+git fetch
+git pull
+git push
+git log --oneline --graph --all > logs.txt

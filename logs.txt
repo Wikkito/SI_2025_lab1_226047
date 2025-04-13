@@ -1,0 +1,15 @@
+*   2f8ddb4 Merge branch 'master' of https://github.com/Wikkito/SI_2025_lab1_226047
+|\  
+| *   1855879 Merge pull request #11 from Wikkito/4-mark-task-as-completed-by-name
+| |\  
+| | * 4a2ff03 Feature implemented - Mark task as completed by name
+| * |   4e88b68 Merge pull request #10 from Wikkito/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * 4dee289 Feature implemented
+| |/  
+* / 70d0151 Feature implemented - Filter tasks by category
+|/  
+* 1696d97 Starter code
+* 99a77db Initial commit
